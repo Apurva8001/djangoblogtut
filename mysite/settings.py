@@ -161,7 +161,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(mysite_ROOT, 'static'),
 )
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
